@@ -14,14 +14,14 @@ In this project case it was use to get information that included:
 •	Contact Number
 •	License type (E.g. certification for plumber)
 •	License year
-Step 1
+### Step 1
 Inspect the website to establish which language has been used. It serves to establish whether the website has an API.
 If it doesn’t have the API then we can proceed to use selenium and beautiful soup to extract the data
-Step 2
+### Step 2
 After inspection and understanding how the website works, get the URL from the network tab, under the Headers section and under Request URL, you can copy the URL and paste in postman under the get request.
-Step 3
+### Step 3
 In the python script shared on this repository, replace the newly acquired json file and load the JSON data.
-Step 4
+### Step 4
 Run the script after the minor change. You should get a download of a CSV file with the details you have requested for in your amended code and as according to what is needed from your assignment.
 ## License
 Before you use the scraper, check the API documentation if available and look into the Robots.txt file to understand which parts of the website data can be collected and to prevent you from being blocked or banned.
